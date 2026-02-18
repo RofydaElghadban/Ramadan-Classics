@@ -1,4 +1,4 @@
-# 🌙 Ramadan Classics Music Player  🌙 
+<h1 align="center">🌙 Ramadan Classics Music Player 🌙</h1>
 
 A simple web-based music player featuring classic Ramadan songs.
 Built as a frontend project using HTML, CSS, and JavaScript.
