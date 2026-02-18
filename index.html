@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramadan Kareem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css
+    2?family=Cairo:wght@400;700&family=Amiri:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <audio src="audio/Abdelaziz_Mahmoud_Merhb_Shahr_Elsoum.mp3">
+        <source src="" type="">
+    </audio>
+    <div class="left-section">
+        <div class="content">
+            <h1 class="title" style="text-align: center; padding-bottom: 15%; padding-top: 5%;"> رمضان كريم <img
+                    src="images/ramadan.png" style="width: 40px; height: 40px;"></h1>
+            <div class="playList d-flex row justify-content-center gap-3">
+                <button class="list" id="0"><img src="images/crescent.png" style="width: 30px; height: 30px;"><br>مرحب
+                    شهر
+                    الصوم</button>
+                <button class="list" id="1"><img src="images/crescent.png" style="width: 30px; height: 30px;"><br>افرحوا
+                    يا
+                    بنات</button>
+                <button class="list" id="2"><img src="images/crescent.png" style="width: 30px; height: 30px;"><br>اهو جه
+                    يا
+                    ولاد</button>
+                <button class="list" id="3"><img src="images/crescent.png" style="width: 30px; height: 30px;"><br>رمضان
+                    جانا</button>
+                <button class="list" id="4"><img src="images/crescent.png" style="width: 30px; height: 30px;"><br>هاتوا
+                    الفوانيس</button>
+                <button class="list" id="5"><img src="images/crescent.png" style="width: 30px; height: 30px;"><br>والله
+                    بعودة</button>
+                <button class="list" id="6"><img src="images/crescent.png" style="width: 30px; height: 30px;"><br>يا
+                    بركة
+                    رمضان</button>
+                <button class="list" id="7"><img src="images/crescent.png" style="width: 30px; height: 30px;"><br>حالو
+                    يا
+                    حالو</button>
+                <button class="list" id="8"><img src="images/crescent.png" style="width: 30px; height: 30px;"><br>والله
+                    لسه
+                    بدري</button>
+            </div>
+        </div>
+    </div>
+    <div class="right-section">
+        <div style=" height: 100%;">
+            <div class="container" dir="ltr">
+                <div class="component">
+                    <img id="image-song" src="images/Merhb_Shahr_Elsoum.jpg">
+                    <p id="name" class="name-song">مرحب شهر الصوم</p>
+                    <div class="duration-container">
+                        <input id="durationRange" type="range" value="0" min="0" class="accent">
+                        <div class="duration-song">
+                            <span id="currentTime">00:00</span>
+                            <span id="durationValue">06:04</span>
+                        </div>
+                    </div>
+                    <div class="volume-container">
+                        <input id="volumeRange" type="range" value="1" min="0" max="1" step="0.01" class="accent">
+                        <i id="mute" class="fa-solid fa-volume-high"></i>
+                    </div>
+                    <div class="btns">
+                        <i id="previous" class="fa-solid fa-angles-left"></i>
+                        <i id="play" class="fa-solid fa-play"></i>
+                        <i id="pause" class="fa-solid fa-pause"></i>
+                        <i id="stop" class="fa-solid fa-stop"></i>
+                        <i id="next" class="fa-solid fa-angles-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
